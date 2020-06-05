@@ -66,11 +66,13 @@
     <Compile Include="Assets\Scripts\Basic\Lifetime.cs" />
     <Compile Include="Assets\Scripts\Basic\LineColorChange.cs" />
     <Compile Include="Assets\Scripts\Game\Environments\Ground.cs" />
-    <Compile Include="Assets\Scripts\Game\Peasant\Peasant.cs" />
+    <Compile Include="Assets\Scripts\Game\Ham\HamID.cs" />
+    <Compile Include="Assets\Scripts\Game\Ham\HamSpawn.cs" />
+    <Compile Include="Assets\Scripts\Game\Ham\TakeHam.cs" />
+    <Compile Include="Assets\Scripts\Game\Peasant\KillPeasant.cs" />
+    <Compile Include="Assets\Scripts\Game\Peasant\PeasantID.cs" />
     <Compile Include="Assets\Scripts\Game\Peasant\SpawnPeasants.cs" />
-    <Compile Include="Assets\Scripts\Game\Peasant\WayPoints.cs" />
     <Compile Include="Assets\Scripts\Game\Peasant\WaypointMovement.cs" />
-    <Compile Include="Assets\Scripts\Game\Player\FlipAnimation.cs" />
     <Compile Include="Assets\Scripts\Game\Player\Movement.cs" />
     <Compile Include="Assets\Scripts\Game\Player\PlayerAnimationSwitch.cs" />
     <Reference Include="UnityEngine">

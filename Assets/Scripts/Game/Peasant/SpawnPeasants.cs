@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnPeasants : MonoBehaviour
 {
     [SerializeField] private Transform _spawn;
-    [SerializeField] private Peasant _peasant;
+    [SerializeField] private PeasantID _peasant;
     [SerializeField] private float _spawnTimer;
     [SerializeField] private int _maxPeasantCount;
 
@@ -20,7 +20,7 @@ public class SpawnPeasants : MonoBehaviour
         var waitSecods = new WaitForSeconds(_spawnTimer);
         for (uint i = 0; i < _maxPeasantCount; i++)
         {
-            Peasant enemy = Instantiate(_peasant, _spawn);
+            PeasantID enemy = Instantiate(_peasant, _spawn);
             yield return waitSecods;
         }
         
