@@ -66,10 +66,10 @@
     <Compile Include="Assets\Scripts\Basic\Lifetime.cs" />
     <Compile Include="Assets\Scripts\Basic\LineColorChange.cs" />
     <Compile Include="Assets\Scripts\Game\Environments\Ground.cs" />
+    <Compile Include="Assets\Scripts\Game\Ham\DestroyHam.cs" />
     <Compile Include="Assets\Scripts\Game\Ham\HamID.cs" />
     <Compile Include="Assets\Scripts\Game\Ham\HamSpawn.cs" />
-    <Compile Include="Assets\Scripts\Game\Ham\TakeHam.cs" />
-    <Compile Include="Assets\Scripts\Game\Peasant\KillPeasant.cs" />
+    <Compile Include="Assets\Scripts\Game\Peasant\KillPlayer.cs" />
     <Compile Include="Assets\Scripts\Game\Peasant\PeasantID.cs" />
     <Compile Include="Assets\Scripts\Game\Peasant\SpawnPeasants.cs" />
     <Compile Include="Assets\Scripts\Game\Peasant\WaypointMovement.cs" />

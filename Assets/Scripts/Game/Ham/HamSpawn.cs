@@ -19,11 +19,7 @@ public class HamSpawn : MonoBehaviour
 
     private void Start()
     {
-        var ham = StartCoroutine(CreateHam());
-        for (int i = 0; i < _spawnPoints.Length; i++)
-        {
-            Debug.Log(_spawnPoints[i].name + " " + i);
-        }
+        var ham = StartCoroutine(CreateHam());       
     }
 
     private IEnumerator CreateHam()
